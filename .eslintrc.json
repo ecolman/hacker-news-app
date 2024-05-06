@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:react/recommended", "prettier"],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "@next/next/no-img-element": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off", // suppress errors for missing 'import React' in files
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+  }
+}
