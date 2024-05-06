@@ -2,7 +2,7 @@
 const nextConfig = {
   distDir: 'docs',
   output: 'export',
-  basePath: '/hacker-news-app',
+  //basePath: '/hacker-news-app',
 };
 
 export default nextConfig;
