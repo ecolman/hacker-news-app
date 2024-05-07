@@ -22,11 +22,11 @@ export default function RootLayout({
   return (
     <StoreProvider>
       <html lang="en">
-        <body className={clsx(inter.className, 'bg-light-bg dark:bg-dark-bg')}>
-          <ThemeProvider>
+        <ThemeProvider>
+          <body className={clsx(inter.className, 'bg-light-bg dark:bg-dark-bg')}>
             <main className="flex min-h-screen flex-col px-24 py-11 border-t-4 border-orange">{children}</main>
-          </ThemeProvider>
-        </body>
+          </body>
+        </ThemeProvider>
       </html>
     </StoreProvider>
   );
